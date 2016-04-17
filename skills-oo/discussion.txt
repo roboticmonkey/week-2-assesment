@@ -1,0 +1,42 @@
+What are the three main design advantages that object orientation can provide?
+
+The 3 main design advantages are abstraction, encapsilation, and polymorphism
+
+Explain each concept.
+Encapsilation - is when all relevant code is kept together
+abstraction - is when you dont have to know how something works
+                "under the hood" to be able to use it.
+Polymorphism - is when you add flexability to a method, so that its behavior can
+            change depending on the object that called it. ie. 2 classes dog and
+            cat share the same speak method from their parent class. but the code 
+            is written in such away as to allow the dog to say woof and cat to say 
+            meow, with out the use of condidtionals.
+
+What is a class? 
+a class is a object that holds the instructions about how to create an object
+ and what that object can do. 
+
+What is an instance attribute?
+an instance attribute is a variable that is connected directly to
+a particular instance of class.
+
+What is a method?
+a method is a function written in a class that can act upon an object of that
+class. methods always used with a dot. 
+ie. object.method(may or may not have parameters )
+
+What is an instance in object orientation?
+and instance is a particular instanciated object. 
+ie. in a Cat class, an individual cat named "wiskers" would be an instance
+
+How is a class attribute different than an instance attribute? 
+Give an example of when you might use each.
+
+A class attribute is an attribute that is connected to the class and all
+instances of the class would share. where an instance attribute is connected 
+directly to the instance of the class.
+ie. in our Cat class. if you had an attribute called no._of_legs = 4
+and we created 2 cats, Bugzilla and Mo they would both have the class 
+attribute no._of_legs being 4. but if we selected Mo specifically and said 
+that he had no_of_legs = 3. then Mo would have an instance attribute of no_of_legs = 3,
+where Bugzilla still just had the general class attribute of no_of_legs =4
